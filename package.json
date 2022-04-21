@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:staging": "env-cmd -f .env.staging npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "sh packages/startup.sh",
+    "build": "sh packages/setup.sh"
+  }
+}
