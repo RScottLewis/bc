@@ -12,7 +12,6 @@ node_modules
 npm-shrinkwrap.json
 
 # npm
-package-lock.json
 
 # Yarn
 yarn-error.log
